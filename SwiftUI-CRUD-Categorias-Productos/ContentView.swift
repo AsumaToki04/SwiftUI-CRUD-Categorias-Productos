@@ -49,12 +49,8 @@ struct ContentView: View {
     @StateObject var modeloGlobal = ModeloCategoria()
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ListaCategoriasView(modelo: modeloGlobal)
         }
-        .padding()
     }
 }
