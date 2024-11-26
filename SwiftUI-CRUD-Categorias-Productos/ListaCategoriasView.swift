@@ -17,6 +17,9 @@ struct ListaCategoriasView: View {
                 ForEach(modelo.categorias) {item in
                     Text(item.nombre)
                 }
+                .onDelete { indices in
+                    modelo.categorias.remove(atOffsets: indices)
+                }
             }
         }
         .navigationTitle("Lista Categorías")
