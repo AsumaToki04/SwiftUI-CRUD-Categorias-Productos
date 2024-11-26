@@ -15,7 +15,11 @@ struct ListaCategoriasView: View {
         VStack {
             List {
                 ForEach(modelo.categorias) {item in
-                    Text(item.nombre)
+                    NavigationLink(
+                        destination: ListaProductosView(categoria: item, modelo: modelo)
+                    ) {
+                        Text(item.nombre)
+                    } 
                 }
                 .onDelete { indices in
                     modelo.categorias.remove(atOffsets: indices)

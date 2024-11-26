@@ -15,6 +15,7 @@
 		EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88B2CF6650C00C1D01B /* Producto.swift */; };
 		EB1CD88E2CF667A600C1D01B /* ListaCategoriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */; };
 		EB1CD8902CF668FF00C1D01B /* RegistroCategoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */; };
+		EB1CD8922CF66B7900C1D01B /* ListaProductosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EB1CD88B2CF6650C00C1D01B /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasView.swift; sourceTree = "<group>"; };
 		EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroCategoriaView.swift; sourceTree = "<group>"; };
+		EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaProductosView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				EB1CD88B2CF6650C00C1D01B /* Producto.swift */,
 				EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */,
 				EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */,
+				EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */,
 			);
 			path = "SwiftUI-CRUD-Categorias-Productos";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1CD8922CF66B7900C1D01B /* ListaProductosView.swift in Sources */,
 				EB1CD87E2CF6642F00C1D01B /* ContentView.swift in Sources */,
 				EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */,
 				EB1CD87C2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift in Sources */,
