@@ -18,6 +18,13 @@ struct ListaProductosView: View {
                 ForEach(categoria.productos) { item in
                     Text(item.nombre)
                 }
+                .onDelete { indices in
+                    if let index = modelo.categorias.firstIndex(where: {
+                        $0.id == categoria.id
+                    }) {
+                        modelo.categorias[index].productos.remove(atOffsets: indices)
+                    }
+                }
             }
         }
         .navigationTitle("Lista Productos")
