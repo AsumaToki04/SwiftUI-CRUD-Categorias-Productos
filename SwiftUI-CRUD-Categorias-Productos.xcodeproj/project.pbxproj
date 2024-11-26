@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7E1438D2CF68C3100E1B27D /* EditarCategoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E1438C2CF68C3100E1B27D /* EditarCategoriaView.swift */; };
 		EB1CD87C2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD87B2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift */; };
 		EB1CD87E2CF6642F00C1D01B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD87D2CF6642F00C1D01B /* ContentView.swift */; };
 		EB1CD8802CF6643200C1D01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1CD87F2CF6643200C1D01B /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7E1438C2CF68C3100E1B27D /* EditarCategoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarCategoriaView.swift; sourceTree = "<group>"; };
 		EB1CD8782CF6642F00C1D01B /* SwiftUI-CRUD-Categorias-Productos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CRUD-Categorias-Productos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1CD87B2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CRUD_Categorias_ProductosApp.swift; sourceTree = "<group>"; };
 		EB1CD87D2CF6642F00C1D01B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */,
 				EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */,
 				EB1CD8932CF66CCB00C1D01B /* RegistroProductoView.swift */,
+				B7E1438C2CF68C3100E1B27D /* EditarCategoriaView.swift */,
 			);
 			path = "SwiftUI-CRUD-Categorias-Productos";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E1438D2CF68C3100E1B27D /* EditarCategoriaView.swift in Sources */,
 				EB1CD8922CF66B7900C1D01B /* ListaProductosView.swift in Sources */,
 				EB1CD87E2CF6642F00C1D01B /* ContentView.swift in Sources */,
 				EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */,

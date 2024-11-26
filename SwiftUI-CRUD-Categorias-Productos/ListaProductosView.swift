@@ -11,6 +11,7 @@ struct ListaProductosView: View {
     var categoria: Categoria
     @ObservedObject var modelo: ModeloCategoria
     @State private var mostrarRegistro = false
+    @State private var mostrarEditar = false
     
     var body: some View {
         VStack {
@@ -36,9 +37,19 @@ struct ListaProductosView: View {
                     Image(systemName: "plus")
                 }
             }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    mostrarEditar = true
+                }) {
+                    Image(systemName: "pencil")
+                }
+            }
         }
         .sheet(isPresented: $mostrarRegistro) {
             RegistroProductoView(categoria: categoria, modelo: modelo, mostrar: $mostrarRegistro)
+        }
+        .sheet(isPresented: $mostrarEditar) {
+            EditarCategoriaView(categoria: categoria, modelo: modelo, mostrar: $mostrarEditar)
         }
     }
 }
