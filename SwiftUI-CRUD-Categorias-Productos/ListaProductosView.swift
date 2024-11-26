@@ -10,6 +10,7 @@ import SwiftUI
 struct ListaProductosView: View {
     var categoria: Categoria
     @ObservedObject var modelo: ModeloCategoria
+    @State private var mostrarRegistro = false
     
     var body: some View {
         VStack {
@@ -20,5 +21,17 @@ struct ListaProductosView: View {
             }
         }
         .navigationTitle("Lista Productos")
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    mostrarRegistro = true
+                }) {
+                    Image(systemName: "plus")
+                }
+            }
+        }
+        .sheet(isPresented: $mostrarRegistro) {
+            RegistroProductoView(categoria: categoria, modelo: modelo, mostrar: $mostrarRegistro)
+        }
     }
 }

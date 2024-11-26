@@ -16,6 +16,7 @@
 		EB1CD88E2CF667A600C1D01B /* ListaCategoriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */; };
 		EB1CD8902CF668FF00C1D01B /* RegistroCategoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */; };
 		EB1CD8922CF66B7900C1D01B /* ListaProductosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */; };
+		EB1CD8942CF66CCB00C1D01B /* RegistroProductoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD8932CF66CCB00C1D01B /* RegistroProductoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasView.swift; sourceTree = "<group>"; };
 		EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroCategoriaView.swift; sourceTree = "<group>"; };
 		EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaProductosView.swift; sourceTree = "<group>"; };
+		EB1CD8932CF66CCB00C1D01B /* RegistroProductoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroProductoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */,
 				EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */,
 				EB1CD8912CF66B7900C1D01B /* ListaProductosView.swift */,
+				EB1CD8932CF66CCB00C1D01B /* RegistroProductoView.swift */,
 			);
 			path = "SwiftUI-CRUD-Categorias-Productos";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				EB1CD88E2CF667A600C1D01B /* ListaCategoriasView.swift in Sources */,
 				EB1CD88A2CF664FF00C1D01B /* Categoria.swift in Sources */,
 				EB1CD8902CF668FF00C1D01B /* RegistroCategoriaView.swift in Sources */,
+				EB1CD8942CF66CCB00C1D01B /* RegistroProductoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
