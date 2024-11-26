@@ -14,6 +14,7 @@
 		EB1CD88A2CF664FF00C1D01B /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD8892CF664FF00C1D01B /* Categoria.swift */; };
 		EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88B2CF6650C00C1D01B /* Producto.swift */; };
 		EB1CD88E2CF667A600C1D01B /* ListaCategoriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */; };
+		EB1CD8902CF668FF00C1D01B /* RegistroCategoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EB1CD8892CF664FF00C1D01B /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
 		EB1CD88B2CF6650C00C1D01B /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasView.swift; sourceTree = "<group>"; };
+		EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroCategoriaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				EB1CD8892CF664FF00C1D01B /* Categoria.swift */,
 				EB1CD88B2CF6650C00C1D01B /* Producto.swift */,
 				EB1CD88D2CF667A600C1D01B /* ListaCategoriasView.swift */,
+				EB1CD88F2CF668FF00C1D01B /* RegistroCategoriaView.swift */,
 			);
 			path = "SwiftUI-CRUD-Categorias-Productos";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				EB1CD87C2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift in Sources */,
 				EB1CD88E2CF667A600C1D01B /* ListaCategoriasView.swift in Sources */,
 				EB1CD88A2CF664FF00C1D01B /* Categoria.swift in Sources */,
+				EB1CD8902CF668FF00C1D01B /* RegistroCategoriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
