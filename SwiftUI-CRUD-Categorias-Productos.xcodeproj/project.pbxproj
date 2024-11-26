@@ -11,6 +11,8 @@
 		EB1CD87E2CF6642F00C1D01B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD87D2CF6642F00C1D01B /* ContentView.swift */; };
 		EB1CD8802CF6643200C1D01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1CD87F2CF6643200C1D01B /* Assets.xcassets */; };
 		EB1CD8832CF6643200C1D01B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1CD8822CF6643200C1D01B /* Preview Assets.xcassets */; };
+		EB1CD88A2CF664FF00C1D01B /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD8892CF664FF00C1D01B /* Categoria.swift */; };
+		EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD88B2CF6650C00C1D01B /* Producto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EB1CD87D2CF6642F00C1D01B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB1CD87F2CF6643200C1D01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1CD8822CF6643200C1D01B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB1CD8892CF664FF00C1D01B /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		EB1CD88B2CF6650C00C1D01B /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				EB1CD87D2CF6642F00C1D01B /* ContentView.swift */,
 				EB1CD87F2CF6643200C1D01B /* Assets.xcassets */,
 				EB1CD8812CF6643200C1D01B /* Preview Content */,
+				EB1CD8892CF664FF00C1D01B /* Categoria.swift */,
+				EB1CD88B2CF6650C00C1D01B /* Producto.swift */,
 			);
 			path = "SwiftUI-CRUD-Categorias-Productos";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1CD87E2CF6642F00C1D01B /* ContentView.swift in Sources */,
+				EB1CD88C2CF6650C00C1D01B /* Producto.swift in Sources */,
 				EB1CD87C2CF6642F00C1D01B /* SwiftUI_CRUD_Categorias_ProductosApp.swift in Sources */,
+				EB1CD88A2CF664FF00C1D01B /* Categoria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
